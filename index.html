@@ -19,8 +19,6 @@
         <div class="wrapper clearfix">
             <!-- Nav -->
             <nav>
-<!-- 
-try mobile first design -->
 
 <!-- use height media query for header vh -->
 
@@ -30,37 +28,41 @@ try mobile first design -->
                 <ul class="main-menu clearfix"> 
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About <span>&#x25BC;</span></a>
-                        <ul class="sub-menu">
+                        <!-- <ul class="sub-menu">
                             <li><a href="#">One</a></li>
                             <li><a href="#">Two</a></li>
                             <li><a href="#">Three</a></li>
                             <li><a href="#">Four</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li><a href="#blog">Blog <span>&#x25BC;</span></a>
-                        <ul class="sub-menu">
+                        <!-- <ul class="sub-menu">
                             <li><a href="#">Blog 1</a></li>
                             <li><a href="#">Blog 2</a></li>
                             <li><a href="#">Blog 3</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav><!-- Nav ends -->
+
+            <!-- Hamburger Menu icon -->
+            <a href="#" class="hamburger-menu"><i class="fa fa-bars "></i></a>
+
             <div class="main-heading">
                 <h1><span>Animal</span><span>Refuge</span></h1>
             </div>
                         
         </div>
 
-        <div class="wrapper1">
+        
             <ul class="social-icon-links">
                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="#"><i class="fab fa-snapchat-ghost"></i></a></li>
                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
             </ul>
-        </div>
+    
         
     </header> <!-- Header ends -->
     <!-- Main -->
@@ -73,8 +75,10 @@ try mobile first design -->
                 </div>
                 <div class="text">
                     <h2>Susie's Story</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut voluptas aliquam, culpa dolorum vero corrupti exercitationem consequatur? Voluptatum, nihil praesentium sed necessitatibus similique nobis fugit blanditiis, pariatur itaque unde, aliquid enim dicta. Natus ipsa voluptas illum! Iste at quasi ratione, similique distinctio doloremque odio velit laboriosam illum vel eum dolor repudiandae! Perspiciatis ipsam quibusdam asperiores Voluptatum, nihil praesentium sed necessitatibus similique nobis fugit blanditiisasperiores Voluptatum, nihil praesentium sed necessitatibus similique nobis fugit</p>
-                    <a href="">Read More</a>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut voluptas aliquam, culpa dolorum vero corrupti exercitationem consequatur? Voluptatum, nihil praesentium sed necessitatibus similique nobis fugit blanditiis, pariatur itaque unde, aliquid enim dicta. Natus ipsa voluptas illum! Iste at quasi ratione, similique distinctio doloremque odio velit laboriosam illum vel eum dolor repudiandae! Perspiciatis</p>
+                    <div class="home-read-more">
+                        <a href="">Read More</a>
+                    </div>
                 </div>
             </div>
         </section> <!-- Home ends -->
@@ -105,14 +109,14 @@ try mobile first design -->
         <section id="blog" class="blog wrapper1">
             <!-- Use wrapper here -->
                 <article class="blog-1 clearfix">
+                    <div class="blog-img">
+                        <img src="./animal-land-assets/image-7.jpg" alt="Zebras in jungle">
+                    </div>
                     <div class="blog-text">
                         <h3>Fascinating Facts <span>about zebras</span></h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nobis laudantium labore dolore, veniam
                             obcaecati alias eum facere ad dolorum aspernatur temporibus reprehenderit ex quas nihil! Sapiente ad dolorum aspernatur temporibus reprehenderit ex quas nihil ad dolorum aspernatur </p>
-                        <a href="#">Read More</a>
-                    </div>
-                    <div class="blog-img">
-                        <img src="./animal-land-assets/image-7.jpg" alt="Zebras in jungle">
+                        <div class="blog-read-more"><a href="#">Read More</a></div>
                     </div>
                 </article>
                 
@@ -124,7 +128,7 @@ try mobile first design -->
                         <h3>The bond between <span>animals and humans</span></h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nobis laudantium labore dolore, veniam
                             obcaecati alias eum facere ad dolorum aspernatur temporibus reprehenderit ex quas nihil! Sapiente facere ad dolorum aspernatur temporibus reprehenderit ex quas nihil! Sapiente</p>
-                        <a href="#">Read More</a>
+                        <div class="blog-read-more"><a href="#">Read More</a></div>
                     </div>
                 </article>
         </section>
@@ -138,8 +142,8 @@ try mobile first design -->
             <nav>
                 <ul class="clearfix">
                     <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
                     <li><a href="#">Blog</a></li>
-                    <li><a href="#">Gallery</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav><!-- Footer Nav ends -->
