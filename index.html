@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animal Refuge</title>
     <!-- Skip Link -->
     <a href="#maincontent" class="skip-link">Skip to main content.</a>
     <!-- google fonts -->
@@ -12,6 +11,7 @@
     <script src="https://kit.fontawesome.com/1383680287.js" crossorigin="anonymous"></script>
     <!-- Style -->
     <link rel="stylesheet" type="text/css" href="style.css" ></link>
+    <title>Animal Refuge</title>
 </head>
 <body>
     <!-- Header -->
@@ -19,35 +19,29 @@
         <div class="wrapper clearfix">
             <!-- Nav -->
             <nav>
-
-<!-- use height media query for header vh -->
-
-<!-- use media query for pixel density -->
-
-                <!-- <button>MENU Toggle</button> -->
                 <ul class="main-menu clearfix"> 
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About <span>&#x25BC;</span></a>
-                        <!-- <ul class="sub-menu">
+                        <ul class="sub-menu">
                             <li><a href="#">One</a></li>
                             <li><a href="#">Two</a></li>
                             <li><a href="#">Three</a></li>
                             <li><a href="#">Four</a></li>
-                        </ul> -->
+                        </ul>
                     </li>
                     <li><a href="#blog">Blog <span>&#x25BC;</span></a>
-                        <!-- <ul class="sub-menu">
-                            <li><a href="#">Blog 1</a></li>
-                            <li><a href="#">Blog 2</a></li>
-                            <li><a href="#">Blog 3</a></li>
-                        </ul> -->
+                        <ul class="sub-menu">
+                            <li><a href="#">One</a></li>
+                            <li><a href="#">Two </a></li>
+                            <li><a href="#">Three</a></li>
+                        </ul>
                     </li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav><!-- Nav ends -->
 
             <!-- Hamburger Menu icon -->
-            <a href="#" class="hamburger-menu"><i class="fa fa-bars "></i></a>
+            <a href="#" class="hamburger-menu"><i class="fa fa-bars "></i></a><!-- Hamburger Menu icon -->
 
             <div class="main-heading">
                 <h1><span>Animal</span><span>Refuge</span></h1>
@@ -55,16 +49,15 @@
                         
         </div>
 
-        
-            <ul class="social-icon-links">
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-snapchat-ghost"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            </ul>
-    
-        
+        <!-- Social Icon Links -->
+        <ul class="social-icon-links">
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-snapchat-ghost"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul><!-- Social Icon Links ends -->        
     </header> <!-- Header ends -->
+
     <!-- Main -->
     <main id="maincontent">
         <!-- Home -->
@@ -92,7 +85,7 @@
                 <div class="about-img"><img src="./animal-land-assets/image-3.jpg" alt="a colorful parrot"></div>
         
             </div>
-        </section> <!-- Some Friends ends -->
+        </section> <!-- About ends -->
 
         <!-- More Details -->
         <section class="more-details">
@@ -106,33 +99,32 @@
             </div>
         </section> <!-- More Details ends -->
 
-        <section id="blog" class="blog wrapper1">
-            <!-- Use wrapper here -->
-                <article class="blog-1 clearfix">
-                    <div class="blog-img">
-                        <img src="./animal-land-assets/image-7.jpg" alt="Zebras in jungle">
-                    </div>
-                    <div class="blog-text">
-                        <h3>Fascinating Facts <span>about zebras</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nobis laudantium labore dolore, veniam
-                            obcaecati alias eum facere ad dolorum aspernatur temporibus reprehenderit ex quas nihil! Sapiente ad dolorum aspernatur temporibus reprehenderit ex quas nihil ad dolorum aspernatur </p>
-                        <div class="blog-read-more"><a href="#">Read More</a></div>
-                    </div>
-                </article>
-                
-                <article class="blog-2 clearfix">
-                    <div class="blog-img">
-                        <img src="./animal-land-assets/image-2.jpg" alt="a little wild cat playing with a human being">
-                    </div>
-                    <div class="blog-text">
-                        <h3>The bond between <span>animals and humans</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nobis laudantium labore dolore, veniam
-                            obcaecati alias eum facere ad dolorum aspernatur temporibus reprehenderit ex quas nihil! Sapiente facere ad dolorum aspernatur temporibus reprehenderit ex quas nihil! Sapiente</p>
-                        <div class="blog-read-more"><a href="#">Read More</a></div>
-                    </div>
-                </article>
-        </section>
-
+        <!-- Blog Section -->
+        <section id="blog" class="blog wrapper-blog">
+            <article class="blog-1 clearfix">
+                <div class="blog-img">
+                    <img src="./animal-land-assets/image-7.jpg" alt="Zebras in jungle">
+                </div>
+                <div class="blog-text">
+                    <h3>Fascinating Facts <span>about zebras</span></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nobis laudantium labore dolore, veniam
+                        obcaecati alias eum facere ad dolorum aspernatur temporibus reprehenderit ex quas nihil! Sapiente ad dolorum aspernatur temporibus reprehenderit ex quas nihil ad dolorum aspernatur </p>
+                    <div class="blog-read-more"><a href="#">Read More</a></div>
+                </div>
+            </article>
+            
+            <article class="blog-2 clearfix">
+                <div class="blog-img">
+                    <img src="./animal-land-assets/image-2.jpg" alt="a little wild cat playing with a human being">
+                </div>
+                <div class="blog-text">
+                    <h3>The bond between <span>animals and humans</span></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nobis laudantium labore dolore, veniam
+                        obcaecati alias eum facere ad dolorum aspernatur temporibus reprehenderit ex quas nihil! Sapiente facere ad dolorum aspernatur temporibus reprehenderit ex quas nihil! Sapiente</p>
+                    <div class="blog-read-more"><a href="#">Read More</a></div>
+                </div>
+            </article>
+        </section><!-- Blog Section ends -->
     </main><!-- Main ends -->
 
     <!-- Footer -->
@@ -153,8 +145,7 @@
                 <h4>Stay Updated</h4>
                 <p>Subscribe to our newsletter to stay updated</p>
                 <div class="form">
-                    <input type="email" placeholder="email address">
-                    <button>Subscribe</button>
+                    <input type="email" placeholder="email address"><button>Subscribe</button>
                 </div>                
             </div><!-- Singup ends-->
 
@@ -169,10 +160,10 @@
             </div><!-- Contact ends-->
         </div>
     </footer><!-- Footer ends -->
+
     <!-- Legal Section -->
     <div class="legal">
         <p>Copyright @ 2019 HackerYou</p>
     </div><!-- Legal Section ends-->
-    
 </body>
 </html>
